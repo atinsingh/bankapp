@@ -16,7 +16,7 @@ public class CustomerService {
 
 
     public Customer createCustomer(Customer customer){
-        return  this.customerRepo.save(customer);
+        return  this.customerRepo.saveAndFlush(customer);
     }
 
     public Optional<Customer> getCustomerByID(Long id){

@@ -24,7 +24,7 @@ public class Customer {
     private String name;
 
     @Column(name = "PHONE")
-    @Pattern(regexp = "^(\\+0?1\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}$")
+   // @Pattern(regexp = "^(\\+0?1\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}$")
     private String phone;
 
     @Column(name = "CREATE_DATE")
